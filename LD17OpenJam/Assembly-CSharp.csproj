@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AboutControllerScript.cs" />
      <Compile Include="Assets\Script\GameController.cs" />
      <Compile Include="Assets\Script\GameOverControllerScript.cs" />
      <Compile Include="Assets\Script\MainMenuScript.cs" />
