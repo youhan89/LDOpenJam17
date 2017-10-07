@@ -7,7 +7,6 @@ public class TrashScript : MonoBehaviour {
 	private float originY = 6f;
 	public Rigidbody2D rb2d;
 
-	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D>();
 		rb2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
@@ -20,8 +19,6 @@ public class TrashScript : MonoBehaviour {
 		this.transform.position = new Vector3(Random.Range(-6.0f, 6.0f), originY, 0);
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		
 	}
 }
