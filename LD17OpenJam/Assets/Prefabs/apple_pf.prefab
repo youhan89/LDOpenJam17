@@ -134,7 +134,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
-  playerRef: {fileID: 0}
 --- !u!212 &212110972928642844
 SpriteRenderer:
   m_ObjectHideFlags: 1
