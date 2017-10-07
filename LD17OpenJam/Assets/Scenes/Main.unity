@@ -289,7 +289,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -7.63}
+  m_Offset: {x: 0, y: -7.33}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -412,7 +412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4287531475735240, guid: b8242d286dc304be7a5963aef6c16f3d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.02
+      value: -3.69
       objectReference: {fileID: 0}
     - target: {fileID: 4287531475735240, guid: b8242d286dc304be7a5963aef6c16f3d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -634,7 +634,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.3545065
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
