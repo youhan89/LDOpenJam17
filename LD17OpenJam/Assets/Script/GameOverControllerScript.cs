@@ -25,7 +25,7 @@ public class GameOverControllerScript : MonoBehaviour {
 	}
 	
 	public void LoadGame() {
-		SceneManager.LoadScene("Main");
+		SceneManager.LoadScene("Menu");
 	}
 	// Update is called once per frame
 	void Update () {
