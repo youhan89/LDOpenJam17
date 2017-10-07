@@ -10,11 +10,18 @@ public class TimeControllerScript : MonoBehaviour {
 	public Text timeLabel;
 	public GameController gc;
 
+	public ScoreControllerScript scoreController;
+
 	private float timeLeft = 0;
 	
 
 	void Start () {
 		timeLeft = GameDuration;
+	}
+
+	private void GameOver(){
+		scoreController.SaveToPrefs();
+		LoadGameOverScene();
 	}
 
 	public void LoadGameOverScene() {
@@ -46,7 +53,7 @@ public class TimeControllerScript : MonoBehaviour {
 
 		if(timeLeft <= 0) {
 			gc.spawnRate = 0;
-			LoadGameOverScene();
+			GameOver();
 		} else {
 			drawTimeLabel();
 		}

@@ -7,11 +7,13 @@ public class PlayerController : MonoBehaviour {
 	public Text scoreLabel;
 
 	private Rigidbody2D rb2d;
-	private int score = 0;
+
+	public ScoreControllerScript scoreController;
 
 	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D>();
+		scoreController.score = 0;
 	}
 	
 	// Update is called once per frame
@@ -23,8 +25,8 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log("Collided");
 		if(other.gameObject.CompareTag("trash")){
         	Destroy(other.gameObject);
-			score ++;
-			scoreLabel.text = "Score: " + score;
+			scoreController.score ++;
+			scoreLabel.text = "Score: " + scoreController.score;
 			Debug.Log("Destroying");
 		}
     }
