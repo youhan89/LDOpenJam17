@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class TrashScript : MonoBehaviour {
 
-
-	private float originY;
+	private float originY = 5f;
 	public Rigidbody2D rb2d;
+	public GameObject playerRef;
 
 	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D>();
 		rb2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-		this.originY = this.transform.position.y;
+		ResetTrash();
 	}
 
 	void ResetTrash() {
@@ -22,8 +22,14 @@ public class TrashScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(this.transform.position.y < -10) {
-			ResetTrash();
+		float pX = playerRef.transform.position.x;
+		float pWidth = playerRef.GetComponent<Renderer>().bounds.size.x;
+
+		if((this.transform.position.x >=  pX - (pWidth/2) ) && ( this.transform.position.x < pX + (pWidth / 2))){
+			if(this.transform.position.y < -4.5f) {
+				//Destroy(this.gameObject);
+			}
 		}
+		
 	}
 }
