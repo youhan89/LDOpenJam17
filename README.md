@@ -16,9 +16,12 @@ Gimp2
 Pinta
 
 ## Download
-Downloads will be available once completed
-[Windows](#)
-[Mac](#)
+Downloads will be available once completed 
+
+[Windows](#) 
+
+[Mac](#) 
+
 [Linux](#)
 
 ## Visit me @
