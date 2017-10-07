@@ -15,5 +15,11 @@ Sublime Text 3
 Gimp2
 Pinta
 
+## Download
+Downloads will be available once completed
+[Windows](#)
+[Mac](#)
+[Linux](#)
+
 ## Visit me @
-[a link](http://www.flimsy.se)Flimsy.se
+[Flimsy.se](http://www.flimsy.se)
