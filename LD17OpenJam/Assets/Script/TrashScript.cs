@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TrashScript : MonoBehaviour {
 
-	private float originY = 5f;
+	private float originY = 6f;
 	public Rigidbody2D rb2d;
 	public GameObject playerRef;
 
@@ -17,19 +17,12 @@ public class TrashScript : MonoBehaviour {
 
 	void ResetTrash() {
 		rb2d.velocity = new Vector3(0f,0f,0f);
+		rb2d.AddTorque(Random.Range(-20.0f, 20.0f));
 		this.transform.position = new Vector3(Random.Range(-4.0f, 4.0f), originY, 0);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		float pX = playerRef.transform.position.x;
-		float pWidth = playerRef.GetComponent<Renderer>().bounds.size.x;
-
-		if((this.transform.position.x >=  pX - (pWidth/2) ) && ( this.transform.position.x < pX + (pWidth / 2))){
-			if(this.transform.position.y < -4.5f) {
-				//Destroy(this.gameObject);
-			}
-		}
 		
 	}
 }

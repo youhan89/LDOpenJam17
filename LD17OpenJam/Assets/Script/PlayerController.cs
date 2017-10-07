@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI; 
 public class PlayerController : MonoBehaviour {
 
+	public Text scoreLabel;
+
 	private Rigidbody2D rb2d;
+	private int score = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +21,12 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 		Debug.Log("Collided");
-        Destroy(other.gameObject);
+		if(other.gameObject.CompareTag("trash")){
+        	Destroy(other.gameObject);
+			score ++;
+			scoreLabel.text = "Score: " + score;
+			Debug.Log("Destroying");
+		}
     }
 
 	private Vector3 CalculateMouse3DVector() {
