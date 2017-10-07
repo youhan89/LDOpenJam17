@@ -426,8 +426,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trash: {fileID: 1429149714152906, guid: 933b2443be0804dbbb71872094a1f401, type: 2}
+  trash_2: {fileID: 1293681329832674, guid: 7a9a04c9be79c4810a2d837aec7e4850, type: 2}
+  battery: {fileID: 1459146503932504, guid: 1546a9ff62553436fa17b231ba3426d6, type: 2}
+  apple: {fileID: 1687551073810318, guid: 266fd8027bbc24c558e6ef6cb2c34a9d, type: 2}
   shouldSpawn: 1
-  spawnRate: 5
+  spawnRate: 1
 --- !u!1 &704818059 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1091033860311778, guid: b8242d286dc304be7a5963aef6c16f3d,
@@ -509,7 +512,7 @@ Prefab:
     - target: {fileID: 50249156846525432, guid: b8242d286dc304be7a5963aef6c16f3d,
         type: 2}
       propertyPath: m_LinearDrag
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 50249156846525432, guid: b8242d286dc304be7a5963aef6c16f3d,
         type: 2}
@@ -521,6 +524,11 @@ Prefab:
       propertyPath: scoreLabel
       value: 
       objectReference: {fileID: 959816624}
+    - target: {fileID: 50249156846525432, guid: b8242d286dc304be7a5963aef6c16f3d,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8242d286dc304be7a5963aef6c16f3d, type: 2}
   m_IsPrefabParent: 0

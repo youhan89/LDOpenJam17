@@ -6,7 +6,6 @@ public class TrashScript : MonoBehaviour {
 
 	private float originY = 6f;
 	public Rigidbody2D rb2d;
-	public GameObject playerRef;
 
 	// Use this for initialization
 	void Start () {

@@ -4,17 +4,28 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
-	public GameObject trash;
+	public GameObject trash, trash_2, battery, apple;
 
 	public bool shouldSpawn = true;
 	public float spawnRate = 5f;
 	private float timeLeft;
 
+	private List<GameObject> trashtypes = new List<GameObject>();
+
 	// Use this for initialization
 	void Start () {
 		timeLeft = spawnRate;
+		trashtypes.Add(trash);
+		trashtypes.Add(trash_2);
+		trashtypes.Add(battery);
+		trashtypes.Add(apple);
 	}
 	
+	GameObject GetRandomTrashType() {
+		int randomPostion = Random.Range(0, trashtypes.Count);
+		return trashtypes[randomPostion];
+	}
+
 	// Update is called once per frame
 	void Update () {
 		timeLeft -= Time.deltaTime;
@@ -22,8 +33,7 @@ public class GameController : MonoBehaviour {
          {
 			 if(shouldSpawn){
 			 	timeLeft = spawnRate;
-				 Instantiate(trash);
-				
+				 Instantiate(GetRandomTrashType());
 			 }
          }
 	}
