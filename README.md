@@ -23,11 +23,9 @@ Intergalactic Space Junk was created by Johan Sögaard (Youhan / Flimsy) as a pa
 ## Download
 Following are in-dev builds of the game. Might be unstable.. 
 
-[Windows](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_WIN.zip) 
-
-[Mac](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_MAC.zip) 
-
-[Linux](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_LINUX.zip) (HIGHLY UNSTABLE)
+* [Windows](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_WIN.zip) 
+* [Mac](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_MAC.zip) 
+* [Linux](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_LINUX.zip) (HIGHLY UNSTABLE)
 
 ## Visit me @
 [Flimsy.se](http://www.flimsy.se)
