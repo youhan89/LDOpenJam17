@@ -18,11 +18,11 @@ Pinta
 ## Download
 Downloads will be available once completed 
 
-[Windows](#) 
+[Windows](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_WIN.zip) 
 
-[Mac](#) 
+[Mac](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_MAC.zip) 
 
-[Linux](#)
+[Linux](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_LINUX.zip)
 
 ## Visit me @
 [Flimsy.se](http://www.flimsy.se)
