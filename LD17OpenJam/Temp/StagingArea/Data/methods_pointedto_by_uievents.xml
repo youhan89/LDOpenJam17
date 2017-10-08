@@ -1,0 +1,24 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="MenuControllerScript">
+			<method name="playButtonSound"/>
+			<method name="LoadGame"/>
+			<method name="playButtonSound"/>
+			<method name="ExitGame"/>
+			<method name="playButtonSound"/>
+			<method name="LoadAbout"/>
+		</type>
+		<type fullname="GameOverControllerScript">
+			<method name="LoadGame"/>
+		</type>
+		<type fullname="AboutControllerScript">
+			<method name="LoadMenu"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+</linker>

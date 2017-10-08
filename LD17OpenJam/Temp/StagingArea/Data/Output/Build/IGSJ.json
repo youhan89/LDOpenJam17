@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "IGSJ.data.unityweb",
+"asmCodeUrl": "IGSJ.asm.code.unityweb",
+"asmMemoryUrl": "IGSJ.asm.memory.unityweb",
+"asmFrameworkUrl": "IGSJ.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

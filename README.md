@@ -12,10 +12,14 @@ Mattias Askfelt - Graphics
 Martin Landhammar - Skylight photo
 
 ## Made with
-Unity
-Visual Studio Code
-Sublime Text 3
-Gimp2
+Unity 
+
+Visual Studio Code 
+
+Sublime Text 3 
+
+Gimp2 
+
 Pinta
 
 ## Download
