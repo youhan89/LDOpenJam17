@@ -368,6 +368,7 @@ MonoBehaviour:
   trash_2: {fileID: 1293681329832674, guid: 7a9a04c9be79c4810a2d837aec7e4850, type: 2}
   battery: {fileID: 1459146503932504, guid: 1546a9ff62553436fa17b231ba3426d6, type: 2}
   apple: {fileID: 1687551073810318, guid: 266fd8027bbc24c558e6ef6cb2c34a9d, type: 2}
+  cup: {fileID: 1382338334760894, guid: 69993bdb008934836812c7cbbbd5a145, type: 2}
   shouldSpawn: 1
   spawnRate: 1
 --- !u!1 &704818059 stripped

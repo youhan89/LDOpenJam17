@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
-	public GameObject trash, trash_2, battery, apple;
+	public GameObject trash, trash_2, battery, apple, cup;
 
 	public bool shouldSpawn = true;
 	public float spawnRate = 5f;
@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour {
 		trashtypes.Add(trash_2);
 		trashtypes.Add(battery);
 		trashtypes.Add(apple);
+		trashtypes.Add(cup);
 	}
 	
 	GameObject GetRandomTrashType() {
