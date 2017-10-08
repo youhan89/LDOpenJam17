@@ -239,7 +239,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b751dacb2b3434e128fa9e17ffb7c600, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -380,6 +380,10 @@ MonoBehaviour:
     Visual Studio Code
 
     Pinta
+
+    SFXR
+
+    Garageband
 
     Google Fonts'
 --- !u!222 &227689999
@@ -526,12 +530,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Intergalactic Space Junk was created by Johan S\xF6gaard (Youhan / Flimsy)
-    as a part of OpenJam 2017. The game is set in a not so far future where earthgarbage
+  m_Text: "Intergalactic Space Junk, created by Johan S\xF6gaard (Youhan / Flimsy),
+    as a part of OpenJam 2017. The game is set in a not so far future where earth-garbage
     for many years has left its mark on our planet. But now, an even greater threat
-    is facing our homeworld... INTERGALACTIC JUNK! You need to control your rocketpowered
-    space-trash-can and collect all that junk before it reaches the surface of our
-    planet!"
+    is facing our homeworld...\n INTERGALACTIC  JUNK! \n\nYou need to control your
+    rocketpowered space-trash-can and collect all that waste before it reaches the
+    surface of our planet!"
 --- !u!222 &307490391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1101,7 +1105,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

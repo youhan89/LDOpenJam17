@@ -14,7 +14,7 @@ public class MenuControllerScript : MonoBehaviour {
 	}
 	
 	public void playButtonSound(){
-		audioSource.PlayOneShot(blip, 0.5f);
+		audioSource.PlayOneShot(blip, 0.2f);
 	}
 
 	public void LoadGame() {

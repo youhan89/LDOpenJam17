@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log("Collided");
 		if(other.gameObject.CompareTag("trash")){
         	Destroy(other.gameObject);
-			audioSource.PlayOneShot(pickup, 0.5f);
+			audioSource.PlayOneShot(pickup, 0.1f);
 			scoreController.score ++;
 			scoreLabel.text = "Score: " + scoreController.score;
 			Debug.Log("Destroying");
