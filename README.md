@@ -3,7 +3,7 @@ A Game for Openjam 2017
 
 ![IGSJ](https://github.com/youhan89/LDOpenJam17/blob/master/Releases/IGSJ_Promo.png)
 
-##Play it now!
+## Play it now!
 [WebGL](https://flimsy.itch.io/intergalactic-space-junk) 
 
 ## About
