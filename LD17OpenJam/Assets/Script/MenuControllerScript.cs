@@ -3,13 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(AudioSource))]
 public class MenuControllerScript : MonoBehaviour {
 
-	// Use this for initialization
+	public AudioClip blip;
+    AudioSource audioSource;
+
 	void Start () {
-		
+		audioSource = GetComponent<AudioSource>();
 	}
 	
+	public void playButtonSound(){
+		audioSource.PlayOneShot(blip, 0.5f);
+	}
+
 	public void LoadGame() {
 		SceneManager.LoadScene("Main");
 	}

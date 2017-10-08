@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
+
+[RequireComponent(typeof(AudioSource))]
 public class PlayerController : MonoBehaviour {
 
 	public Text scoreLabel;
@@ -10,9 +12,13 @@ public class PlayerController : MonoBehaviour {
 
 	public ScoreControllerScript scoreController;
 
+	public AudioClip pickup;
+    AudioSource audioSource;
+
 	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D>();
+		audioSource = GetComponent<AudioSource>();
 		scoreController.score = 0;
 	}
 	
@@ -25,6 +31,7 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log("Collided");
 		if(other.gameObject.CompareTag("trash")){
         	Destroy(other.gameObject);
+			audioSource.PlayOneShot(pickup, 0.5f);
 			scoreController.score ++;
 			scoreLabel.text = "Score: " + scoreController.score;
 			Debug.Log("Destroying");

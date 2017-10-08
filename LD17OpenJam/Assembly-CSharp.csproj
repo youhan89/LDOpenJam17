@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\ScoreControllerScript.cs" />
      <Compile Include="Assets\Script\TimeControllerScript.cs" />
      <Compile Include="Assets\Script\TrashScript.cs" />
+     <Compile Include="Assets\SoundController.cs" />
      <None Include="Assets\link.xml" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

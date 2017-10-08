@@ -41,8 +41,6 @@ public class TimeControllerScript : MonoBehaviour {
 	void Update () {
 		timeLeft -= Time.deltaTime;
 
-		Debug.Log("TIME LEFT : " + timeLeft);
-
 		if(timeLeft>59.5f && timeLeft<60.5f){
 			gc.spawnRate = 0.8f;
 			Debug.Log("INCREASING RATE!!!!");
