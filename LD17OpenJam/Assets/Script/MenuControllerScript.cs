@@ -25,6 +25,9 @@ public class MenuControllerScript : MonoBehaviour {
 		SceneManager.LoadScene("About");
 	}
 
+	public void ExitGame() {
+		Application.Quit();
+	}
 	// Update is called once per frame
 	void Update () {
 		

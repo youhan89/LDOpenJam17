@@ -28,13 +28,11 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log("Collided");
 		if(other.gameObject.CompareTag("trash")){
         	Destroy(other.gameObject);
 			audioSource.PlayOneShot(pickup, 0.1f);
 			scoreController.score ++;
 			scoreLabel.text = "Score: " + scoreController.score;
-			Debug.Log("Destroying");
 		}
     }
 
