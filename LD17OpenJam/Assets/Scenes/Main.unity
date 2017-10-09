@@ -212,7 +212,6 @@ GameObject:
   m_Component:
   - component: {fileID: 464963706}
   - component: {fileID: 464963705}
-  - component: {fileID: 464963707}
   - component: {fileID: 464963709}
   - component: {fileID: 464963708}
   - component: {fileID: 464963710}
@@ -278,31 +277,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &464963707
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 464963704}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -7.3}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 19.2, y: 10.8}
-    newSize: {x: 19.2, y: 10.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 20.55, y: 4.5}
-  m_EdgeRadius: 0
 --- !u!61 &464963708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -370,7 +344,7 @@ MonoBehaviour:
   apple: {fileID: 1687551073810318, guid: 266fd8027bbc24c558e6ef6cb2c34a9d, type: 2}
   cup: {fileID: 1382338334760894, guid: 69993bdb008934836812c7cbbbd5a145, type: 2}
   shouldSpawn: 1
-  spawnRate: 1
+  spawnRate: 0.8
 --- !u!1 &704818059 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1091033860311778, guid: b8242d286dc304be7a5963aef6c16f3d,

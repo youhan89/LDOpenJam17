@@ -20,5 +20,8 @@ public class TrashScript : MonoBehaviour {
 	}
 	
 	void Update () {
+		if(transform.position.y < -7){
+			this.gameObject.SetActive(false);
+		}
 	}
 }

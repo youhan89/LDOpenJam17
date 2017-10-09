@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour {
 	public GameObject trash, trash_2, battery, apple, cup;
 
 	public bool shouldSpawn = true;
-	public float spawnRate = 5f;
+	public float spawnRate = 0.8f;
 	private float timeLeft;
 
 	private List<GameObject> trashtypes = new List<GameObject>();
