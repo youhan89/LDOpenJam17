@@ -7,7 +7,7 @@ A Game for Openjam 2017
 [Play in browser](https://flimsy.itch.io/intergalactic-space-junk) 
 
 ## About
-Intergalactic Space Junk was created by Johan Sögaard (Youhan / Flimsy) as a part of OpenJam 2017. The game is set in a not so far future where earthgarbage for many years has left its mark on our planet. But now, an even greater threat is facing our homeworld... **INTERGALACTIC JUNK!** You need to control your rocketpowered space-trash-can and collect all that junk before it reaches the surface of our planet!
+Intergalactic Space Junk was created by Youhan as a part of OpenJam 2017. The game is set in a not so far future where earthgarbage for many years has left its mark on our planet. But now, an even greater threat is facing our homeworld... **INTERGALACTIC JUNK!** You need to control your rocketpowered space-trash-can and collect all that junk before it reaches the surface of our planet!
 
 ![IGSJGIF](https://github.com/youhan89/LDOpenJam17/blob/master/Releases/igsjgif.gif)
 
@@ -28,7 +28,7 @@ Following are in-dev builds of the game. Might be unstable..
 * [Linux](https://github.com/youhan89/LDOpenJam17/raw/master/Releases/IGSJ_LINUX.zip) (HIGHLY UNSTABLE)
 
 ## Visit me @
-[Flimsy.se](http://www.flimsy.se)
+[JSogaard.com](http://www.jsogaard.com)
 
 
 ## Thanks to
